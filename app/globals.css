@@ -1,4 +1,10 @@
 @import "tailwindcss";
+@font-face {
+  font-family: 'Raghero';
+  src: url('/fonts/raghero.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
   --primary: #F97316;

@@ -1,5 +1,6 @@
 "use client";
 
+import { PanelsTopLeft } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -47,32 +48,20 @@ export default function Home() {
   return (
     <main style={{ fontFamily: 'Inter, sans-serif' }}>
 
-      {/* ── HERO ── */}
-      <section style={{ position: 'relative', width: '100%', height: '260px', background: '#000000', overflow: 'hidden', display: 'flex', alignItems: 'center' }}>
-       <div style={{
-    position: 'absolute', inset: 0, zIndex: 0,
-    backgroundImage: "url('/images/bg-animation01.gif')",
-    backgroundSize: '50% 60%',
-    backgroundPosition: 'top right',
-    backgroundRepeat: 'no-repeat',
-    opacity: 0.35,
-  }} />
-   <div style={{ position: 'relative', zIndex: 2, padding: '0 48px' }}>
-          <h1 style={{ fontSize: 'clamp(2.8rem, 6vw, 5rem)', fontWeight: '700', color: '#ffffff', lineHeight: '1.05', letterSpacing: '-2px', margin: 0 }}>
-            Experiences,<br />Thoughtfully<br />Reimagined
-          </h1>
-        </div>
-        </section>
+     {/* ── HERO ── */}
+     
 
-      {/*<section style={{ position: 'relative', width: '100%', height: '260px', background: '#000000', overflow: 'hidden', display: 'flex', alignItems: 'center' }}>
+        <section style={{ position: 'relative', width: '100%', height: '230px', background: '#000000', overflow: 'hidden', display: 'flex', alignItems: 'center' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #000000 35%, #120820 55%, #1a0d35 70%, #250a2a 85%, #1a0510 100%)' }} />
         <div style={{ position: 'absolute', right: 0, top: 0, width: '60%', height: '100%', background: 'linear-gradient(135deg, transparent 10%, rgba(139,92,246,0.5) 40%, rgba(236,72,153,0.4) 70%, rgba(249,115,22,0.2) 100%)' }} />
         <div style={{ position: 'absolute', right: '8%', top: '5%', width: '45%', height: '90%', background: 'radial-gradient(ellipse at center, rgba(99,102,241,0.4) 0%, transparent 65%)' }} />
-        <div style={{ position: 'relative', zIndex: 2, padding: '0 48px' }}>
-          <h1 style={{ fontSize: 'clamp(2.8rem, 6vw, 5rem)', fontWeight: '700', color: '#ffffff', lineHeight: '1.05', letterSpacing: '-2px', margin: 0 }}>
+        <div style={{ position: 'relative', zIndex: 2, padding: '0 48px',marginLeft:'72px' }}>
+          <h1 style={{ fontSize: 'clamp(2rem, 6vw, 4rem)', fontWeight: '800', color: '#ffffff', lineHeight: '1.05', letterSpacing: '-2px', margin: 0 }}>
             Experiences,<br />Thoughtfully<br />Reimagined
           </h1>
+          
         </div>
+        
       </section>
 
       {/* ── AI CHAT BOX SECTION ── */}
@@ -196,7 +185,7 @@ export default function Home() {
 }} />
         {/* THE CHAT BOX */}
         <div style={{ position: 'relative', zIndex: 2, maxWidth: '980px', margin: '0 auto', padding: '02px 5px 0' }}>
-          <div style={{ background: '#111111', borderRadius: '8px', padding: '0px 40px 0px', border: '1px solid #222222' }}>
+          <div style={{ background: '#111111', borderRadius: '8px', padding: '0px 40px 0px', border: '1px solid #222222',height:'320px',marginTop:'-15px' }}>
 
             {/* Title */}
             <h2 style={{ fontSize: '1.55rem', fontWeight: '500', color: '#ffffff', textAlign: 'center', marginBottom: '32px', marginTop:'17.5px',letterSpacing: '-0.3px' }}>
@@ -396,4 +385,4 @@ export default function Home() {
 
     </main>
   );
-}
+} 

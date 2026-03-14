@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <header style={{ width: '100%', position: 'sticky', top: 0, zIndex: 50, background: '#000000' }}>
-      <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '60px' }}>
+      <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '80px' }}>
 
         {/* LEFT — Hamburger */}
         <button
@@ -35,19 +35,21 @@ export default function Navbar() {
         </button>
 
         {/* CENTER — Logo */}
-        <Link href="/" style={{
-          position: 'absolute',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          fontSize: '1.8rem',
-          fontWeight: '900',
-          color: '#F97316',
-          textDecoration: 'none',
-          letterSpacing: '-1px',
-          fontFamily: 'Inter, sans-serif',
-        }}>
-          Enclecta
-        </Link>
+       <Link href="/" style={{
+  position: 'absolute',
+  left: '50%',
+  transform: 'translateX(-50%)',
+  fontSize: '2.8rem',
+  fontWeight: '700',
+  color: '#F97316',
+  textDecoration: 'none',
+  letterSpacing: '2px',
+  fontFamily: 'Raghero, sans-serif',
+  marginTop:'20px',
+ 
+}}>
+  Enclecta
+</Link>
 
         {/* RIGHT — Icons like Zensar */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
