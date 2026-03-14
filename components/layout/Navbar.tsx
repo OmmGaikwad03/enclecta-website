@@ -41,9 +41,9 @@ export default function Navbar() {
   transform: 'translateX(-50%)',
   fontSize: '2.8rem',
   fontWeight: '700',
-  color: '#F97316',
+  color: '#f5f5f5',
   textDecoration: 'none',
-  letterSpacing: '2px',
+  letterSpacing: '3px',
   fontFamily: 'Raghero, sans-serif',
   marginTop:'20px',
  

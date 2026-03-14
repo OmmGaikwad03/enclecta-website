@@ -51,12 +51,12 @@ export default function Home() {
      {/* ── HERO ── */}
      
 
-        <section style={{ position: 'relative', width: '100%', height: '230px', background: '#000000', overflow: 'hidden', display: 'flex', alignItems: 'center' }}>
+        <section style={{ position: 'relative', width: '100%', height: '230px', background: '#ffffff', overflow: 'hidden', display: 'flex', alignItems: 'center' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #000000 35%, #120820 55%, #1a0d35 70%, #250a2a 85%, #1a0510 100%)' }} />
-        <div style={{ position: 'absolute', right: 0, top: 0, width: '60%', height: '100%', background: 'linear-gradient(135deg, transparent 10%, rgba(139,92,246,0.5) 40%, rgba(236,72,153,0.4) 70%, rgba(249,115,22,0.2) 100%)' }} />
+        <div style={{ position: 'absolute', right: 0, top: 0, width: '60%', height: '100%', background: 'linear-gradient(135deg, transparent 10%, rgba(255, 70, 64, 0.91) 40%, rgba(253, 80, 166, 0.91) 70%, rgba(247, 162, 102, 0.98) 100%)' }} />
         <div style={{ position: 'absolute', right: '8%', top: '5%', width: '45%', height: '90%', background: 'radial-gradient(ellipse at center, rgba(99,102,241,0.4) 0%, transparent 65%)' }} />
         <div style={{ position: 'relative', zIndex: 2, padding: '0 48px',marginLeft:'72px' }}>
-          <h1 style={{ fontSize: 'clamp(2rem, 6vw, 4rem)', fontWeight: '800', color: '#ffffff', lineHeight: '1.05', letterSpacing: '-2px', margin: 0 }}>
+          <h1 style={{ fontSize: 'clamp(2rem, 6vw, 4rem)', fontWeight: '800', color: '#f0f0f0', lineHeight: '1.05', letterSpacing: '-2px', margin: 0 }}>
             Experiences,<br />Thoughtfully<br />Reimagined
           </h1>
           
@@ -248,7 +248,7 @@ export default function Home() {
             { number: '35+', label: 'Years of Excellence' },
             { number: '50+', label: 'Countries Reached' },
           ].map((stat, i) => (
-            <div key={i} style={{ padding: '32px 24px', textAlign: 'center', borderRight: i < 3 ? '1px solid rgba(255,255,255,0.3)' : 'none' }}>
+            <div key={i} style={{ padding: '-2px 1px', textAlign: 'center', borderRight: i < 3 ? '1px solid rgba(255,255,255,0.3)' : 'none' }}>
               <div style={{ fontSize: '2rem', fontWeight: '900', color: '#fff' }}>{stat.number}</div>
               <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.85)', marginTop: '6px', fontWeight: '500' }}>{stat.label}</div>
             </div>
